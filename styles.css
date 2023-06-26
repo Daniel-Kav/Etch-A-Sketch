@@ -1,0 +1,18 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;  
+    transition: background-color 0.3s;
+}
+.square:hover{
+    background-color:#69F0AE;
+}
+.square.hovered{
+    background-color: red;
+}
