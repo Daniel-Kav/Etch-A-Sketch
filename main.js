@@ -12,7 +12,7 @@ for (let i = 0; i < 16 ;i++){
             this.style.backgroundColor="red";
         });
         square.addEventListener('mouseleave',function() {
-            this.style.backgroundColor="";
+            this.style.backgroundColor="red";
         });
     }
 
@@ -54,6 +54,14 @@ function generateGrid(size){
       square.style.width = squareSize + "px";
       square.style.height = squareSize + "px";
       container.appendChild(square);
+
+       //add event listeners for mouseenter and mouseleave
+       square.addEventListener('mouseenter', function(){
+        this.style.backgroundColor="red";
+    });
+    square.addEventListener('mouseleave',function() {
+        this.style.backgroundColor="";
+    });
     }
   }
 
