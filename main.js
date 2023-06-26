@@ -60,7 +60,7 @@ function generateGrid(size){
         this.style.backgroundColor="red";
     });
     square.addEventListener('mouseleave',function() {
-        this.style.backgroundColor="";
+        this.style.backgroundColor="red";
     });
     }
   }
