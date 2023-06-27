@@ -45,7 +45,8 @@ function generateGrid(size){
     
 
     //calculate square size based on the total width
-    const squareSize = 960 / size;
+    let containerWidth = container.offsetWidth;
+    let squareSize = Math.floor(containerWidth/size)-2;
     // Create new grid squares
   for (var i = 0; i < size; i++) {
     for (var j = 0; j < size; j++) {

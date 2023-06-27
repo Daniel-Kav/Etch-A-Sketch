@@ -3,9 +3,11 @@
     flex-wrap: wrap;
     width: 100vh;
     height: 70vh;
+    border: 10px solid red;
 }
 
 .square{
+    box-sizing: border-box;
     border: 1px solid black;  
     transition: background-color 0.3s;
 }
