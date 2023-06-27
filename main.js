@@ -69,4 +69,4 @@ function generateGrid(size){
 }
 
 // generate the initial grid
-generateGrid(16)
+generateGrid(6)
