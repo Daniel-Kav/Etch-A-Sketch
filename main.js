@@ -70,3 +70,4 @@ function generateGrid(size){
 
 // generate the initial grid
 generateGrid(16)
+//confine the code one section?
