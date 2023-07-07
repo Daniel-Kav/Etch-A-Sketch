@@ -9,7 +9,7 @@
 .square{
     box-sizing: border-box;
     border: 1px solid black;  
-    transition: background-color 0.3s;
+    transition: background-color 0.2s;
 }
 .square:hover{
     background-color:#69F0AE;
